@@ -46,9 +46,25 @@ Dichiariamo chi ha vinto.*/
 //variabile input che chiede all'utente in prompt di inserire i dati
 let numeroUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
 
+let numeroComputer = numeroRandom(1,5);
 
+let somma = numeroComputer + numeroUtente ;
 
+pariDispari(somma);
+
+if(numeroComputer % 2 == 0 & numeroUtente % 2 == 0 ){
+    console.log("hai vinto");
+}else{
+    console.log("hai perso!");
+}
 
 function numeroRandom(min, max) {
     return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
+function pariDispari(n1){
+    if (n1 % 2 == 0 ){
+        console.log("Pari");
+    }else{
+        console.log("dispari");
+    }
 }
