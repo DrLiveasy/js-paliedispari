@@ -9,7 +9,16 @@ let parolaInserita = prompt("inserisci una parola ");
 //variabile per usare la funzione di invertire 
 let parolaInversa = invertiParola(parolaInserita);
 
+
+
 //funzione pre invertire la parola 
 function invertiParola(daInvertire){
-
+//variabile vuota per inserira la nuova parola quando viene invertita
+    let parolaInvertita = "";
+//un loop che parte dall'ultima lettera della palora iserita fino alla prima cioè converte la parola al contrario 
+    for (var i = daInvertire.length - 1; i >= 0; i--) {
+        parolaInvertita += daInvertire[i];
+    }
+//faccio return della parola che è stata invertita
+    return parolaInvertita;
 }
