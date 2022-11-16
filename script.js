@@ -43,6 +43,12 @@ Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.*/
 
 
-//variabile input che chiede in pprompt di inserire i datr
+//variabile input che chiede all'utente in prompt di inserire i dati
 let numeroUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
 
+
+
+
+function numeroRandom(min, max) {
+    return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
