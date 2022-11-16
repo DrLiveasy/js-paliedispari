@@ -9,7 +9,16 @@ let parolaInserita = prompt("inserisci una parola ");
 //variabile per usare la funzione di invertire 
 let parolaInversa = invertiParola(parolaInserita);
 
+if(parolaInserita == parolaInversa){
+    document.write(`
+    <h1>"la parola inserita è palindroma"</h1>
+    `);
 
+}else{
+    document.write(`
+    <h1>"la parola inserita non è palindroma"</h1>
+    `);
+}
 
 //funzione pre invertire la parola 
 function invertiParola(daInvertire){
