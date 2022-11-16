@@ -53,7 +53,9 @@ let somma = numeroComputer + numeroUtente ;
 pariDispari(somma);
 
 if(numeroComputer % 2 == 0 & numeroUtente % 2 == 0 ){
-    console.log("hai vinto");
+    console.log("hai vinto !");
+}else if(numeroComputer % 2 != 0 & numeroUtente % 2 != 0 ){
+    console.log("hai vinto!");
 }else{
     console.log("hai perso!");
 }
