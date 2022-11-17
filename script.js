@@ -4,13 +4,13 @@ Chiedere all’utente di inserire una parola
 Creare una funzione per capire se la parola inserita è palindroma e poi usate quella funzione appena dichiarata*/
 
 //variabile per chieder all'utente di inserire la parola
-/*
+
 let parolaInserita = prompt("inserisci una parola ");
 
 //variabile per usare la funzione di invertire 
 let parolaInversa = invertiParola(parolaInserita);
 
-if(parolaInserita == parolaInversa){
+if(parolaInserita === parolaInversa){
     document.write(`
     <h1>"la parola inserita è palindroma"</h1>
     `);
@@ -31,7 +31,7 @@ function invertiParola(daInvertire){
     }
 //faccio return della parola che è stata invertita
     return parolaInvertita;
-}*/
+}
 
 
 
@@ -42,7 +42,7 @@ Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.*/
 
-
+/*
 //variabile input che chiede all'utente in prompt di inserire i dati
 let numeroUtente = parseInt(prompt("Inserisci un numero da 1 a 5"));
 
@@ -69,4 +69,4 @@ function pariDispari(n1){
     }else{
         console.log("dispari");
     }
-}
+}*/
