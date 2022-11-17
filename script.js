@@ -26,9 +26,9 @@ function invertiParola(daInvertire){
 //variabile vuota per inserira la nuova parola quando viene invertita
     let parolaInvertita = "";
 //un loop che parte dall'ultima lettera della palora iserita fino alla prima cioè converte la parola al contrario 
-    for (var i = daInvertire.length - 1; i >= 0; i--) {
+    for (var i = daInvertire.length - 1 ; i >= 0 ; i--) {
         parolaInvertita += daInvertire[i];
-    }
+    }// i = lunghezza della parola  - 1 = 4  parolaInvertita = "" + "l'ultima lettera" = "l'ultima lettera"
 //faccio return della parola che è stata invertita
     return parolaInvertita;
 }
